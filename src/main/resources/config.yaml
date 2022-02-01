@@ -4,7 +4,7 @@ anypoint:
   
 cloudhub:
   environment: "Sandbox"
-  app: "sandbox-omni-channel-api-{YS}"
+  app: "sampleproject"
   bg: "Student"
-  worker: "Micro"
+  worker: "0.1v Cores"
   
