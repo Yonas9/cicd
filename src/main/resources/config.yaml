@@ -8,3 +8,6 @@ cloudhub:
   bg: "Student"
   worker: "Micro"
   
+mule:
+  version: "4.4.0"
+  
