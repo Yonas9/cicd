@@ -6,5 +6,5 @@ cloudhub:
   environment: "Sandbox"
   app: "sampleproject"
   bg: "Student"
-  worker: "0.1v Cores"
+  worker: "0.1"
   
