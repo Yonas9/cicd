@@ -6,7 +6,7 @@ cloudhub:
   environment: "Sandbox"
   app: "sampleprojectjenkins"
   bg: "Student"
-  worker: "MICRO"
+  worker: "0.1 vCores"
   
 mule:
   version: "4.4.0"
