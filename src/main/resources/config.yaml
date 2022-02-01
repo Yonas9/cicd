@@ -1,0 +1,10 @@
+anypoing:
+ username: "YoniS"
+ password: "MuleSfot2021"
+  
+cloudhub:
+  environment: "Sandbox"
+  app: "sampleproject"
+  bg: "Student"
+  worker: "0.1v Cores"
+  
