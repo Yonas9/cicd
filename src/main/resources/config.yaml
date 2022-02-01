@@ -6,5 +6,5 @@ cloudhub:
   environment: "Sandbox"
   app: "sampleproject"
   bg: "Student"
-  worker: "MICRO"
+  worker: "Micro"
   

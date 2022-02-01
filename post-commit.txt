@@ -1,4 +1,4 @@
 #!/bin/sh
 set PATH=%PATH%;"C:\Program Files\Git\bin"
 echo %PATH%
-sh.exe -x -c "curl 'http://workshop:Anypoint1357!@localhost:8080/job/{BUILD-NAME}/build?token=MULE_WORKSHOP'"
+sh.exe -x -c "curl 'http://workshop:Anypoint1357!@localhost:8080/job/{sampleproject}/build?token=MULE_WORKSHOP'"
