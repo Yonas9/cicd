@@ -12,16 +12,6 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	<flow name="sampleprojectFlow" doc:id="cc8b56e6-866a-42b1-a601-b115f99267a2" >
 		<http:listener doc:name="Listener" doc:id="e624025d-1c96-423f-b532-5e1a9cb5db61" config-ref="HTTP_Listener_config" path="/sample"/>
 		<set-payload value='#["Hello"++ attributes.queryParams.name as String]' doc:name="Set Payload" doc:id="9453b549-151c-4d3b-9a46-23c43754aec9" />
-		<ee:transform doc:name="Transform Message" doc:id="321f4e03-b412-471c-80f5-780c90935f4c" >
-			<ee:message >
-				<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
----
-{
-	"message": "Hello World"
-}]]></ee:set-payload>
-			</ee:message>
-		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="734904fa-56f4-4c5f-b903-9150fbc379d1" message="#[payload]"/>
 	</flow>
 </mule>
