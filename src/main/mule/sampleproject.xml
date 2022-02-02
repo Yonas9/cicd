@@ -21,6 +21,5 @@ customers:{
 greeting:payload}]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="734904fa-56f4-4c5f-b903-9150fbc379d1" message="#[payload]"/>
 	</flow>
 </mule>
