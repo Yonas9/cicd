@@ -1,13 +1,13 @@
-anypoint:
- username: "YoniS"
- password: "MuleSoft2021"
+anypoint :
+ username : "YoniS"
+ password : "MuleSoft2021"
   
-cloudhub:
-  environment: "Sandbox"
-  app: "sampleprojectjenkins"
-  bg: "Student"
-  worker: "0.1 vCores"
+cloudhub :
+  environment : "Sandbox"
+  app : "sampleprojectjenkins"
+  bg : "Student"
+  worker : "MICRO"
   
 mule:
-  version: "4.4.0"
+  version : "4.4.0"
   
