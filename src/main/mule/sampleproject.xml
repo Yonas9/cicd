@@ -15,9 +15,10 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<ee:transform doc:name="Transform Message" doc:id="b8868c9a-b7df-42a9-a137-edf99ec1339b" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
+output application/xml
 ---
-payload]]></ee:set-payload>
+customers:{
+greeting:payload}]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="734904fa-56f4-4c5f-b903-9150fbc379d1" message="#[payload]"/>
