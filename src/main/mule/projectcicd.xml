@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="projectcicdFlow" doc:id="edf39772-c136-48ba-b85f-0ea9801b6b73" >
+		<http:listener doc:id="9671e431-b2aa-4b77-b7c9-564e34800cfa" doc:name="" path="/Hello"/>
+		<set-payload value="Hello World" doc:name="Set Payload" doc:id="66f0f9df-eb46-458e-9593-48d72d96e340" />
+	</flow>
+</mule>
